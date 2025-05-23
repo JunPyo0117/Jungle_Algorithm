@@ -7,7 +7,7 @@ def bubble_sort(arr):
         # 교환이 일어났는지 확인하는 플래그
         swapped = 0
         # 마지막 i개의 요소는 이미 제자리에 있으므로 검사하지 않음
-        for j in range(0, n-i-1):
+        for j in range(n-i-1):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
                 swapped += 1
