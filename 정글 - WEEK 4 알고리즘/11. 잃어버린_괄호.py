@@ -3,8 +3,8 @@ input = sys.stdin.readline
 
 num = input().strip()
 
-num = num.replace('-', ' ')
-num = num.split(' ')
+# num = num.replace('-', ' ')
+num = num.split('-')
 
 parts = []
 num_list = []
